@@ -22,7 +22,7 @@ function validateInputs(){
         success=false;
         setError(username,'Username is Required')
     }
-    else if(usernameVal.length<8){
+    else if(usernameVal.length<4){
         success = false;
         setError(username,'Username must be atleast 4 characters')
     }
